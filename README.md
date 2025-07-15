@@ -1,0 +1,1 @@
+# BahasaJepang1.0

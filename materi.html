@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Belajar Bahasa Jepang</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="desktop-title">Belajar Bahasa Jepang Untuk Pemula</h1>
+            <div class="jpn-flag"><img src="https://www.flagcolorcodes.com/images/webp/japan.webp" alt="Jp" width="48" height="32"></div> 
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="materi.html" class="active">Materi</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Materi Dasar Bahasa Jepang</h2>
+        
+        <section class="alphabet-section">
+            <h3>Hiragana (ひらがな)</h3>
+            <div class="table-container">
+                <table class="hiragana-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>a</th>
+                            <th>i</th>
+                            <th>u</th>
+                            <th>e</th>
+                            <th>o</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="row-header"></td>
+                            <td><span class="japanese-char">あ</span> <span class="romaji">a</span> <audio src="assets/sounds/kana/a.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">い</span> <span class="romaji">i</span> <audio src="assets/sounds/kana/i.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">う</span> <span class="romaji">u</span> <audio src="assets/sounds/kana/u.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">え</span> <span class="romaji">e</span> <audio src="assets/sounds/kana/e.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">お</span> <span class="romaji">o</span> <audio src="assets/sounds/kana/o.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">k</td>
+                            <td><span class="japanese-char">か</span> <span class="romaji">ka</span> <audio src="assets/sounds/kana/ka.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">き</span> <span class="romaji">ki</span> <audio src="assets/sounds/kana/ki.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">く</span> <span class="romaji">ku</span> <audio src="assets/sounds/kana/ku.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">け</span> <span class="romaji">ke</span> <audio src="assets/sounds/kana/ke.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">こ</span> <span class="romaji">ko</span> <audio src="assets/sounds/kana/ko.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">s</td>
+                            <td><span class="japanese-char">さ</span> <span class="romaji">sa</span> <audio src="assets/sounds/kana/sa.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">し</span> <span class="romaji">shi</span> <audio src="assets/sounds/kana/shi.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">す</span> <span class="romaji">su</span> <audio src="assets/sounds/kana/su.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">せ</span> <span class="romaji">se</span> <audio src="assets/sounds/kana/se.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">そ</span> <span class="romaji">so</span> <audio src="assets/sounds/kana/so.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">t</td>
+                            <td><span class="japanese-char">た</span> <span class="romaji">ta</span> <audio src="assets/sounds/kana/ta.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ち</span> <span class="romaji">chi</span> <audio src="assets/sounds/kana/chi.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">つ</span> <span class="romaji">tsu</span> <audio src="assets/sounds/kana/tsu.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">て</span> <span class="romaji">te</span> <audio src="assets/sounds/kana/te.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">と</span> <span class="romaji">to</span> <audio src="assets/sounds/kana/to.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">n</td>
+                            <td><span class="japanese-char">な</span> <span class="romaji">na</span> <audio src="assets/sounds/kana/na.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">に</span> <span class="romaji">ni</span> <audio src="assets/sounds/kana/ni.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ぬ</span> <span class="romaji">nu</span> <audio src="assets/sounds/kana/nu.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ね</span> <span class="romaji">ne</span> <audio src="assets/sounds/kana/ne.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">の</span> <span class="romaji">no</span> <audio src="assets/sounds/kana/no.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">h</td>
+                            <td><span class="japanese-char">は</span> <span class="romaji">ha</span> <audio src="assets/sounds/kana/ha.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ひ</span> <span class="romaji">hi</span> <audio src="assets/sounds/kana/hi.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ふ</span> <span class="romaji">fu</span> <audio src="assets/sounds/kana/fu.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">へ</span> <span class="romaji">he</span> <audio src="assets/sounds/kana/he.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ほ</span> <span class="romaji">ho</span> <audio src="assets/sounds/kana/ho.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">m</td>
+                            <td><span class="japanese-char">ま</span> <span class="romaji">ma</span> <audio src="assets/sounds/kana/ma.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">み</span> <span class="romaji">mi</span> <audio src="assets/sounds/kana/mi.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">む</span> <span class="romaji">mu</span> <audio src="assets/sounds/kana/mu.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">め</span> <span class="romaji">me</span> <audio src="assets/sounds/kana/me.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">も</span> <span class="romaji">mo</span> <audio src="assets/sounds/kana/mo.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">y</td>
+                            <td><span class="japanese-char">や</span> <span class="romaji">ya</span> <audio src="assets/sounds/kana/ya.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td></td>
+                            <td><span class="japanese-char">ゆ</span> <span class="romaji">yu</span> <audio src="assets/sounds/kana/yu.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td></td>
+                            <td><span class="japanese-char">よ</span> <span class="romaji">yo</span> <audio src="assets/sounds/kana/yo.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">r</td>
+                            <td><span class="japanese-char">ら</span> <span class="romaji">ra</span> <audio src="assets/sounds/kana/ra.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">り</span> <span class="romaji">ri</span> <audio src="assets/sounds/kana/ri.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">る</span> <span class="romaji">ru</span> <audio src="assets/sounds/kana/ru.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">れ</span> <span class="romaji">re</span> <audio src="assets/sounds/kana/re.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ろ</span> <span class="romaji">ro</span> <audio src="assets/sounds/kana/ro.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">w</td>
+                            <td><span class="japanese-char">わ</span> <span class="romaji">wa</span> <audio src="assets/sounds/kana/wa.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><span class="japanese-char">を</span> <span class="romaji">wo</span> <audio src="assets/sounds/kana/o.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">n</td>
+                            <td colspan="5"><span class="japanese-char">ん</span> <span class="romaji">n</span> <audio src="assets/sounds/kana/n.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="alphabet-section">
+            <h3>Katakana (カタカナ)</h3>
+            <div class="table-container">
+                <table class="katakana-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>a</th>
+                            <th>i</th>
+                            <th>u</th>
+                            <th>e</th>
+                            <th>o</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="row-header"></td>
+                            <td><span class="japanese-char">ア</span> <span class="romaji">a</span> <audio src="assets/sounds/kana/a.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">イ</span> <span class="romaji">i</span> <audio src="assets/sounds/kana/i.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ウ</span> <span class="romaji">u</span> <audio src="assets/sounds/kana/u.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">エ</span> <span class="romaji">e</span> <audio src="assets/sounds/kana/e.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">オ</span> <span class="romaji">o</span> <audio src="assets/sounds/kana/o.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">k</td>
+                            <td><span class="japanese-char">カ</span> <span class="romaji">ka</span> <audio src="assets/sounds/kana/ka.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">キ</span> <span class="romaji">ki</span> <audio src="assets/sounds/kana/ki.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ク</span> <span class="romaji">ku</span> <audio src="assets/sounds/kana/ku.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ケ</span> <span class="romaji">ke</span> <audio src="assets/sounds/kana/ke.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">コ</span> <span class="romaji">ko</span> <audio src="assets/sounds/kana/ko.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">s</td>
+                            <td><span class="japanese-char">サ</span> <span class="romaji">sa</span> <audio src="assets/sounds/kana/sa.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">シ</span> <span class="romaji">shi</span> <audio src="assets/sounds/kana/shi.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ス</span> <span class="romaji">su</span> <audio src="assets/sounds/kana/su.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">セ</span> <span class="romaji">se</span> <audio src="assets/sounds/kana/se.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ソ</span> <span class="romaji">so</span> <audio src="assets/sounds/kana/so.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">t</td>
+                            <td><span class="japanese-char">タ</span> <span class="romaji">ta</span> <audio src="assets/sounds/kana/ta.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">チ</span> <span class="romaji">chi</span> <audio src="assets/sounds/kana/chi.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ツ</span> <span class="romaji">tsu</span> <audio src="assets/sounds/kana/tsu.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">テ</span> <span class="romaji">te</span> <audio src="assets/sounds/kana/te.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ト</span> <span class="romaji">to</span> <audio src="assets/sounds/kana/to.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">n</td>
+                            <td><span class="japanese-char">ナ</span> <span class="romaji">na</span> <audio src="assets/sounds/kana/na.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ニ</span> <span class="romaji">ni</span> <audio src="assets/sounds/kana/ni.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ヌ</span> <span class="romaji">nu</span> <audio src="assets/sounds/kana/nu.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ネ</span> <span class="romaji">ne</span> <audio src="assets/sounds/kana/ne.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ノ</span> <span class="romaji">no</span> <audio src="assets/sounds/kana/no.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">h</td>
+                            <td><span class="japanese-char">ハ</span> <span class="romaji">ha</span> <audio src="assets/sounds/kana/ha.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ヒ</span> <span class="romaji">hi</span> <audio src="assets/sounds/kana/hi.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">フ</span> <span class="romaji">fu</span> <audio src="assets/sounds/kana/fu.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ヘ</span> <span class="romaji">he</span> <audio src="assets/sounds/kana/he.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ホ</span> <span class="romaji">ho</span> <audio src="assets/sounds/kana/ho.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">m</td>
+                            <td><span class="japanese-char">マ</span> <span class="romaji">ma</span> <audio src="assets/sounds/kana/ma.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ミ</span> <span class="romaji">mi</span> <audio src="assets/sounds/kana/mi.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ム</span> <span class="romaji">mu</span> <audio src="assets/sounds/kana/mu.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">メ</span> <span class="romaji">me</span> <audio src="assets/sounds/kana/me.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">モ</span> <span class="romaji">mo</span> <audio src="assets/sounds/kana/mo.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">y</td>
+                            <td><span class="japanese-char">ヤ</span> <span class="romaji">ya</span> <audio src="assets/sounds/kana/ya.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td></td>
+                            <td><span class="japanese-char">ユ</span> <span class="romaji">yu</span> <audio src="assets/sounds/kana/yu.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td></td>
+                            <td><span class="japanese-char">ヨ</span> <span class="romaji">yo</span> <audio src="assets/sounds/kana/yo.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">r</td>
+                            <td><span class="japanese-char">ラ</span> <span class="romaji">ra</span> <audio src="assets/sounds/kana/ra.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">リ</span> <span class="romaji">ri</span> <audio src="assets/sounds/kana/ri.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ル</span> <span class="romaji">ru</span> <audio src="assets/sounds/kana/ru.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">レ</span> <span class="romaji">re</span> <audio src="assets/sounds/kana/re.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td><span class="japanese-char">ロ</span> <span class="romaji">ro</span> <audio src="assets/sounds/kana/ro.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">w</td>
+                            <td><span class="japanese-char">ワ</span> <span class="romaji">wa</span> <audio src="assets/sounds/kana/wa.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><span class="japanese-char">ヲ</span> <span class="romaji">wo</span> <audio src="assets/sounds/kana/o.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="row-header">n</td>
+                            <td colspan="5"><span class="japanese-char">ン</span> <span class="romaji">n</span> <audio src="assets/sounds/kana/n.mp3" preload="auto"></audio><button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+<section class="kanji-section">
+    <h3>Kanji Dasar</h3>
+
+    <!-- Kategori Angka -->
+    <div class="kanji-category">
+        <h4>Angka</h4>
+        <div class="kanji-cards-container">
+            <div class="kanji-card">
+                <div class="kanji-char">一</div>
+                <div class="kanji-info">
+                    <p>Arti: Satu</p>
+                    <p>Kunyomi: ひと・つ (hito-tsu)</p>
+                    <p>Onyomi: イチ (ichi)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/ichi.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+            <div class="kanji-card">
+                <div class="kanji-char">二</div>
+                <div class="kanji-info">
+                    <p>Arti: Dua</p>
+                    <p>Kunyomi: ふた・つ (futa-tsu)</p>
+                    <p>Onyomi: ニ (ni)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/ni.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+            <div class="kanji-card">
+                <div class="kanji-char">三</div>
+                <div class="kanji-info">
+                    <p>Arti: Tiga</p>
+                    <p>Kunyomi: みっ・つ (mi-tsu)</p>
+                    <p>Onyomi: サン (san)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/san.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+            <div class="kanji-card">
+                <div class="kanji-char">四</div>
+                <div class="kanji-info">
+                    <p>Arti: Empat</p>
+                    <p>Kunyomi: よっ・つ (yo-tsu), よん (yon)</p>
+                    <p>Onyomi: シ (shi)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/shi.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+            <div class="kanji-card">
+                <div class="kanji-char">五</div>
+                <div class="kanji-info">
+                    <p>Arti: Lima</p>
+                    <p>Kunyomi: いつ・つ (itsu-tsu)</p>
+                    <p>Onyomi: ゴ (go)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/go.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+            <div class="kanji-card">
+                <div class="kanji-char">六</div>
+                <div class="kanji-info">
+                    <p>Arti: Enam</p>
+                    <p>Kunyomi: むっ・つ (mu-tsu), むい (mui)</p>
+                    <p>Onyomi: ロク (roku)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/roku.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+            <div class="kanji-card">
+                <div class="kanji-char">七</div>
+                <div class="kanji-info">
+                    <p>Arti: Tujuh</p>
+                    <p>Kunyomi: なな・つ (nana-tsu), なの (nano)</p>
+                    <p>Onyomi: シチ (shichi)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/shichi.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+            <div class="kanji-card">
+                <div class="kanji-char">八</div>
+                <div class="kanji-info">
+                    <p>Arti: Delapan</p>
+                    <p>Kunyomi: やっ・つ (ya-tsu), よう (you)</p>
+                    <p>Onyomi: ハチ (hachi)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/hachi.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+            <div class="kanji-card">
+                <div class="kanji-char">九</div>
+                <div class="kanji-info">
+                    <p>Arti: Sembilan</p>
+                    <p>Kunyomi: ここの・つ (kokono-tsu)</p>
+                    <p>Onyomi: キュウ (kyuu)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/kyuu.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+            <div class="kanji-card">
+                <div class="kanji-char">十</div>
+                <div class="kanji-info">
+                    <p>Arti: Sepuluh</p>
+                    <p>Kunyomi: とお (too)</p>
+                    <p>Onyomi: ジュウ (juu)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/juu.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kategori Waktu -->
+    <div class="kanji-category">
+        <h4>Waktu</h4>
+        <div class="kanji-cards-container">
+            <div class="kanji-card">
+                <div class="kanji-char">日</div>
+                <div class="kanji-info">
+                    <p>Arti: Hari, Matahari</p>
+                    <p>Kunyomi: ひ (hi), か (ka)</p>
+                    <p>Onyomi: ニチ (nichi), ジツ (jitsu)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/nichi.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+            <div class="kanji-card">
+                <div class="kanji-char">月</div>
+                <div class="kanji-info">
+                    <p>Arti: Bulan, Bulan (kalender)</p>
+                    <p>Kunyomi: つき (tsuki)</p>
+                    <p>Onyomi: ゲツ (getsu), ガツ (gatsu)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/getsu.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+            <div class="kanji-card">
+                <div class="kanji-char">時</div>
+                <div class="kanji-info">
+                    <p>Arti: Waktu</p>
+                    <p>Kunyomi: とき (toki)</p>
+                    <p>Onyomi: ジ (ji)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/ji.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+            <div class="kanji-card">
+                <div class="kanji-char">年</div>
+                <div class="kanji-info">
+                    <p>Arti: Tahun</p>
+                    <p>Kunyomi: とし (toshi)</p>
+                    <p>Onyomi: ネン (nen)</p>
+                    <audio src="https://www3.nhk.or.jp/nhkworld/lesson/en/assets/sounds/kanji/nen.mp3" preload="auto"></audio>
+                    <button class="play-btn" onclick="playAudio(this)"><i class="fas fa-volume-up"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Belajar Bahasa Jepang Untuk Pemula</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
